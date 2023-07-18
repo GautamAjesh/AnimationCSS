@@ -1,0 +1,52 @@
+.rectangle{
+    margin-top: 3%;
+    width: 100px;
+    height: 50px;
+    background-color: #b51818;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+}
+@keyframes move {
+    from {left: 0%;}
+    to {left: 100%;}
+}
+
+.circle{
+    margin-top: 5%;
+    margin-left: 80%;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: #b51818;
+    animation-name: moveRight;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+}
+
+@keyframes moveRight{
+    from {right: 0%;}
+    to {right: 100%;}
+}
+
+.dog{
+    margin-top: 5%;
+    background-color: rgb(243,210,140);
+}
+img{
+    animation-name: ayushRun;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+}
+
+@keyframes ayushRun{
+    from {left: 0%;}
+    to {left: 100%;}
+}
+
